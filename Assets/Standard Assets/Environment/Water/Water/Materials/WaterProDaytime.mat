@@ -248,6 +248,10 @@ Material:
         second: 0
       data:
         first:
+          name: _SquashAmount
+        second: 1
+      data:
+        first:
           name: _Parallax
         second: 0.02
       data:
@@ -282,10 +286,6 @@ Material:
         first:
           name: _Metallic
         second: 0
-      data:
-        first:
-          name: _SquashAmount
-        second: 1
       data:
         first:
           name: _Stencil
@@ -353,16 +353,16 @@ Material:
         second: {r: 1, g: 1, b: 0, a: 0}
       data:
         first:
-          name: _BumpMap_ST
-        second: {r: 1, g: 1, b: 0, a: 0}
-      data:
-        first:
           name: _TreeInstanceColor
         second: {r: 1, g: 1, b: 1, a: 1}
       data:
         first:
           name: _TreeInstanceScale
         second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _BumpMap_ST
+        second: {r: 1, g: 1, b: 0, a: 0}
       data:
         first:
           name: _HueVariation
